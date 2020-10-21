@@ -19,6 +19,7 @@ public class IngestionExcel {
         String url_UT3_M1 = "src/main/resources/20-21 EDT S7 M1 MIAGE.xlsx";
         String url_UT3_L3 = "src/main/resources/20-21 EDT S5 L3 MIAGE.xlsx";
         //Liens vers les icals de l'UT1
+        //TODO:à Remplir
         String url_UT1_M2 = "";
         String url_UT1_M1 = "";
         String url_UT1_L3 = "";
@@ -41,7 +42,7 @@ public class IngestionExcel {
         Calendar UT3_L3 = TranfomationICAL.array2calendar(arrayL3);
         */
 
-        //On fetch les icals de l'UT1 et on les transforme
+        //On fetch les icals de l'UT1 et on les filtres
        /*
         Calendar UT1_M2 = TranfomationICAL.filterIcalUT1(TranfomationICAL.fetchCalendar(url_UT1_M2),"M2");
         Calendar UT1_M1 = TranfomationICAL.filterIcalUT1(TranfomationICAL.fetchCalendar(url_UT1_M1),"M1");
@@ -51,7 +52,7 @@ public class IngestionExcel {
         //TODO:Merge les icals
 
         //Todos plus long termes
-        //TODO: gérer les url
+        //TODO: gérer les url de l'API
         //TODO: gérer le stockage
 
 
